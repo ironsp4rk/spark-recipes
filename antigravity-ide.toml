@@ -4,10 +4,10 @@ description = "Antigravity IDE - Build the new way"
 cli_name = "antigravity-ide"
 
 [version]
-local_strategy = "file"
 url = "https://antigravity.google/download"
 search_linked_js = true
 remote_pattern = 'stable/(\d+\.\d+\.\d+-\d+)/linux-x64/Antigravity%20IDE\.tar\.gz'
+local_strategy = "file"
 local_file = "resources/app/product.json"
 local_pattern = '"ideVersion":\s*"([^"]+)"'
 match_pattern = '^(\d+\.\d+\.\d+)'
