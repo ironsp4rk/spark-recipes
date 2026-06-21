@@ -17,7 +17,6 @@ url = "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/{vers
 format = "tar.gz"
 
 [install]
-target_dir = "~/.local/opt/antigravity-ide"
 strip_components = 1
 executable_path = "antigravity-ide"
 
