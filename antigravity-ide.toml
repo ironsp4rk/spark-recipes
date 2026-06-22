@@ -7,10 +7,6 @@ cli_name = "antigravity-ide"
 url = "https://antigravity.google/download"
 search_linked_js = true
 remote_pattern = 'stable/(\d+\.\d+\.\d+-\d+)/linux-x64/Antigravity%20IDE\.tar\.gz'
-local_strategy = "file"
-local_file = "resources/app/product.json"
-local_pattern = '"ideVersion":\s*"([^"]+)"'
-match_pattern = '^(\d+\.\d+\.\d+)'
 
 [download]
 url = "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/{version}/linux-x64/Antigravity%20IDE.tar.gz"
